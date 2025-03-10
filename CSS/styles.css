@@ -1,0 +1,26 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FFFDD0;
+    color: darkslategray;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.head{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.write{
+    font-size: 22px;
+}
+th, td {
+    border: 2px solid black;
+    padding: 5px;
+}
+@media screen and (max-width: 460px) {
+    body {
+      background-color: white;
+    }
+  }
+  
